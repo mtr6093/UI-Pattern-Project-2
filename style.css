@@ -1,6 +1,5 @@
 
 body {
-    font-family: 'Montserrat', sans-serif;
     background-color: #1d2b3a;
     color: #fff;
   }
@@ -17,10 +16,10 @@ h1 {
 }
 .accordion-item {
     background-color: #fff;
-    color: #111;
+    color: black;
     margin: 1rem 0;
     border-radius: 0.5rem;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+    
 }
 .accordion-item-header {
     padding: 0.5rem 3rem 0.5rem 1rem;
@@ -32,8 +31,16 @@ h1 {
     position: relative;
     cursor: pointer;
 }
+.accordion-item-header::after {
+    content: "\2193";
+    font-size: 1.5rem;
+    position: absolute;
+    right: 1rem;
+    transition: transform 0.1s ease-in-out
+}
 .accordion-item-header.active::after {
-    content: "\2212";
+    /* content: "\2191"; */
+    transform: rotate(180deg);
 }
 .accordion-item-body {
     max-height: 0;
@@ -46,6 +53,15 @@ h1 {
     border-top: 1px solid;
     border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
   }
+
+button {
+    margin: 50px auto;
+    background-color: lightskyblue;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px;
+    /* box-shadow: 10px 10px 32px -12px rgba(0,0,0,0.75); */
   
 @media(max-width:767px) {
     html {
