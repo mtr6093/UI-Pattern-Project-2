@@ -51,11 +51,32 @@ let url = ' https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita'
     mingredients.qty3 = json.drinks[0].strMeasure3
     mingredients.type4 = json.drinks[0].strIngredient4
     mingredients.qty4 = json.drinks[0].strMeasure4
+    // list1()
     b1Content.textContent = json.drinks[0].strInstructions
     // console.log(b1Content)
+    list1()
     })
 
 console.log(mingredients)
+
+function list1 () {
+    let ul=document.createElement('ul')
+    document.getElementById('c1').appendChild(ul)
+    
+        let li1=document.createElement('li')
+        ul.appendChild(li1)
+        li1.innerHTML += mingredients.qty1 + mingredients.type1
+        let li2=document.createElement('li')
+        ul.appendChild(li2)
+        li2.innerHTML += mingredients.qty2 + mingredients.type2
+        let li3=document.createElement('li')
+        ul.appendChild(li3)
+        li3.innerHTML += mingredients.qty3 + mingredients.type3
+        let li4=document.createElement('li')
+        ul.appendChild(li4)
+        li4.innerHTML += mingredients.type4
+  
+}
 
 
 
