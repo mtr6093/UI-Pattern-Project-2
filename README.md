@@ -31,5 +31,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-I would like to acknowledge Codeing Journey for the great instructions on making an accordian layout.
+I would like to acknowledge Codeing Journey for the great instructions on making an accordian layout. Ingredients and instructions are furnished from" The Cocktail Database (https://www.thecocktaildb.com/api.php).
 
