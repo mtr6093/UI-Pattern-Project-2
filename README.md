@@ -14,7 +14,7 @@ None
 
 ### Installing
 
-You can open the index.html file from the link above to se the web based UI.
+You can open the index.html file from the link above to see the web based UI.
 
 ### Visuals
 
