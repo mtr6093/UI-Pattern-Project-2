@@ -5,7 +5,7 @@ Mini-project 3
 ## Getting Started
 
 All files can be downloaded from the link below.
-https://github.com/mtr6093/UI-Pattern-Project-2
+https://mtr6093.github.io/UI-Pattern-Project-2/
 
 
 ### Prerequisites
